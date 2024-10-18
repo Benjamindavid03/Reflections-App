@@ -1,99 +1,541 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Privacy Policy - Reflections</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-        }
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Reflections App</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        h1, h2 {
-            color: #333;
-        }
-
-        h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        h2 {
-            font-size: 20px;
-            margin-top: 20px;
-        }
-
-        p {
-            margin: 10px 0;
-        }
-
-        ul {
-            margin: 10px 0;
-        }
-
-        ul li {
-            margin: 5px 0;
-        }
-
-        i {
-            font-style: italic;
-        }
-    </style>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+        
+    <!--====== lineicons CSS ======-->
+    <link rel="stylesheet" href="assets/css/lineicons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
 
 <body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+    
+    <!--====== PRELOADER PART START ======-->
 
-    <h1>Privacy Policy</h1>
-    <p><strong>Reflections</strong></p>
-    <p><i>Version 1.4.2+1</i></p>
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h2>1. Information We Collect</h2>
-    <ul>
-        <li><strong>User Data:</strong> We may collect personal data such as usernames, encrypted passwords, email addresses, profile pictures, and other data you provide when creating a user profile.</li>
-        <li><strong>Content Data:</strong> The app collects information about the posts, comments, and media you share, including images, videos, and location (optional), to display it to your followers and other users.</li>
-        <li><strong>Device Information:</strong> Technical information about your device, including IP address, device type, and operating system, may be collected to enhance app performance, security, and compatibility.</li>
-        <li><strong>Interaction Data:</strong> We collect data regarding your interactions with other users, such as likes, comments, follows, and private messages, to facilitate the social networking experience.</li>
-    </ul>
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== HEADER PART START ======-->
 
-    <h2>2. How We Use the Information</h2>
-    <ul>
-        <li><strong>To Provide and Improve Services:</strong> We use the information you provide to maintain and improve Reflections, including user interaction features, post sharing, and secure messaging.</li>
-        <li><strong>Security:</strong> We utilize encryption techniques to protect your sensitive data, including passwords and private messages, ensuring that your data remains secure within the app.</li>
-        <li><strong>Personalization:</strong> The app may use your preferences and activity data to personalize the content, posts, and user suggestions you see, including recommending new users to follow based on your interactions.</li>
-    </ul>
+    <header class="header-area">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
 
-    <h2>3. Data Sharing</h2>
-    <ul>
-        <li><strong>Legal Requirements:</strong> If required by law or in response to legal proceedings, we may share your personal information to comply with legal obligations or to protect the rights, property, or safety of our users or the public.</li>
-        <li><strong>User-Generated Content:</strong> Content you share publicly within the app, such as posts, likes, and comments, may be visible to other users.</li>
-    </ul>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#why">Explore</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#features">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#screenshots">Screenshots</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="privacy_policy.html">Privacy Policy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#download">Download</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
 
-    <h2>4. Data Security</h2>
-    <ul>
-        <li><strong>Encryption:</strong> We encrypt sensitive data, such as passwords and private messages, to prevent unauthorized access.</li>
-        <li><strong>App Protections:</strong> Screens are protected against screenshots and screen recordings, further ensuring that your sensitive data is secure while using the app.</li>
-        <li><strong>Limited Access:</strong> We restrict access to your data to authorized personnel only.</li>
-    </ul>
+        <div id="home" class="header-hero bg_cover d-lg-flex align-items-center">
+            
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+            
+            <div class="container">
+                <div class="row align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="header-hero-content">
+                            <h3 class="header-title wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.2s"><span>Introducing</span> a vibrant social networking platform from India</h3>
+                            <p class="text wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.6s">We are thrilled to announce the beta release of our platform, bringing people together through a wide range of features that inspire creativity, connection, and meaningful engagement.</p>
+                            <ul class="d-flex">
+                                <li><a href="#" rel="nofollow" class="main-btn wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.8s">Download Now</a></li>
+                            </ul>
+                        </div> <!-- header hero content -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+                        <div class="header-image">
+                            <div class="about-shape"></div>
+                            <img src="assets/images/header-app.png" alt="app" class="image wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s" style="border-radius: 50px; display: block; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                        </div> <!-- header image -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            <div class="header-shape-1"></div> <!-- header shape -->
+            <div class="header-shape-2">
+                <img src="assets/images/header-shape-2.svg" alt="shape">
+            </div> <!-- header shape -->
+        </div> <!-- header hero -->
+    </header>
 
-    <h2>5. User Rights</h2>
-    <p>You have the right to access, update, and delete the personal data you have provided to Reflections. To exercise these rights, please contact us through the app's support feature. Additionally, you can control the visibility of your posts and interactions through the privacy settings in your account.</p>
+    <!--====== HEADER PART ENDS ======-->
+    
+    <!--====== SERVICES PART START ======
+    
+    <section id="why" class="services-area pt-110 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="section-title text-center pb-25">
+                        <h3 class="title">Why You Should Choose AppLand</h3>
+                        <p class="text">Alii nusquam cu duo, vim eu consulatu percipitur, meis dolor comprehensam at vis. Vel ut percipitur dignissim signiferumque.</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-1 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-layers"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a href="#">Clean Design</a></h4>
+                            <p class="text">Lorem ipsum dolor sitam etco snsetetur sadipscing elitr sed diam nonumy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-2 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-layout"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a href="#">Easy to Use</a></h4>
+                            <p class="text">Lorem ipsum dolor sitam etco snsetetur sadipscing elitr sed diam nonumy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-3 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-bolt"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a href="#">Fast Loading</a></h4>
+                            <p class="text">Lorem ipsum dolor sitam etco snsetetur sadipscing elitr sed diam nonumy.</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-4 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-protection"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a href="#">All Elements</a></h4>
+                            <p class="text">Lorem ipsum dolor sitam etco snsetetur sadipscing elitr sed diam nonumy.</p>
+                        </div>
+                    </div> 
+                </div>
+        </div> 
+    </section>
+-->
+    <!--====== SERVICES PART ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+    
+    <section id="about" class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets/images/updates_news.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <h3 class="title">✨ Explore</h3>
+                            <p class="text">Discover a constantly refreshed world of diverse content created by users from around the globe. Find stories, photos, and videos that inspire, entertain, and engage.</p>
+                        </div> <!-- section title -->
+                        <a href="#" rel="nofollow" class="main-btn">Download Now</a>
+                    </div> <!-- about content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
 
-    <h2>6. Cookies and Tracking Technologies</h2>
-    <p>We do not use cookies for tracking within the app. However, we may use local storage for authentication and session management, ensuring a smoother user experience. Third-party services integrated with the app may collect data as per their own privacy policies.</p>
+    <section id="about" class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <h3 class="title">🎥 Reels</h3>
+                            <p class="text">Express yourself with short, dynamic videos! Whether it’s life hacks, personal moments, or creative expression, Reels lets you share quick, engaging content, enhanced with filters and music.</p>
+                        </div> <!-- section title -->
+                        <a href="#" rel="nofollow" class="main-btn">Download Now</a>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets/images/reel_page.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
 
-    <h2>7. Data Retention</h2>
-    <p>We retain your personal data for as long as necessary to provide you with the services of Reflections. If you choose to delete your account, your data will be permanently removed from our system within a reasonable time, unless otherwise required by law.</p>
+    <section id="about" class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets/images/connect_app.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <h3 class="title">🤝 Connect</h3>
+                            <p class="text">Build genuine and meaningful relationships. Connect enables you to follow and be followed, fostering an authentic community. Whether you’re networking or making new friends, this feature helps you connect with like-minded individuals.</p>
+                        </div> <!-- section title -->
+                        <a href="#" rel="nofollow" class="main-btn">Download Now</a>
+                    </div> <!-- about content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
 
-    <h2>8. Camera Permissions</h2>
-    <p>The Reflections app requests access to your device's camera to capture photos. The photos taken are stored within the app and are not shared with external services unless you explicitly share them within the app’s functionality. The app does not store or transmit your camera data to external servers. Camera access is solely for providing photo-sharing features within the app.</p>
 
-    <h2>9. Changes to This Policy</h2>
-    <p>We reserve the right to modify this Privacy Policy at any time. We will notify you of any changes by posting the updated policy on this page. Your continued use of Reflections after any modifications signifies your acceptance of the new policy.</p>
+    <section id="about" class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <h3 class="title">💬 Chats</h3>
+                            <p class="text">Engage in fun and secure conversations with your followers. Chats provides a real-time messaging experience, complete with smileys and stickers, so you can communicate in a personal and enjoyable way.</p>
+                        </div> <!-- section title -->
+                        <a href="#" rel="nofollow" class="main-btn">Download Now</a>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets/images/chat_app.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
 
+
+    <section id="about" class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets/images/hashtags_page.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <h3 class="title">#️⃣ Hashtags</h3>
+                            <p class="text">Join trending conversations and topics with Hashtags. Stay updated on the latest trends, amplify your content, and become part of discussions that matter to you.</p>
+                        </div> <!-- section title -->
+                        <a href="#" rel="nofollow" class="main-btn">Download Now</a>
+                    </div> <!-- about content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+
+    <section id="about" class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <h3 class="title">🌍 Wavelength Matching</h3>
+                            <p class="text">Find your tribe! This unique feature analyzes your interests and engagement patterns to suggest connections with like-minded individuals. The Connection Compass and Wavelength Matching feature helps you discover deeper, more meaningful connections.</p>
+                        </div> <!-- section title -->
+                        <a href="#" rel="nofollow" class="main-btn">Download Now</a>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets/images/wavelength_app.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== DOWNLOAD PART START ======-->
+    
+    <section id="download" class="download-area pt-70 pb-40">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="download-image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <img class="image" src="assets/images/header-app.png" alt="download">
+                        
+                        <div class="download-shape-1"></div>
+                        <div class="download-shape-2">
+                            <img class="svg" src="assets/images/download-shape.svg" alt="shape">
+                        </div>
+                    </div> <!-- download image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="download-content mt-45 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <h3 class="download-title">Download and Start Using!</h3>
+                        <p class="text">
+                            🎉 We are thrilled to announce the beta release of our platform, bringing people together through a wide range of features that inspire creativity, connection, and meaningful engagement to help shape the future of social networking. Be part of a growing community where every moment is celebrated.</p>
+                        <ul>
+                            <!--<li><a class="app-store" href="#"><img src="assets/images/app-store.png" alt="store"></a></li>-->
+                            <li><a class="play-store" href="#"><img src="assets/images/play-store.png" alt="store"></a></li>
+                        </ul>
+                    </div> <!-- download image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== DOWNLOAD PART ENDS ======-->
+    
+    <!--====== PART START ======-->
+    
+    <footer id="footer" class="footer-area">
+        
+        <div class="footer-shape shape-1"></div>
+        <div class="footer-shape shape-2"></div>
+        <div class="footer-shape shape-3"></div>
+        <div class="footer-shape shape-4"></div>
+        <div class="footer-shape shape-5"></div>
+        <div class="footer-shape shape-6"></div>
+        <div class="footer-shape shape-7"></div>
+        <div class="footer-shape shape-8">
+            <img class="svg" src="assets/images/footer-shape.svg" alt="Shape">
+        </div>
+        
+        <div class="footer-widget pt-30 pb-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                            <a class="logo" href="#" >
+                                <img src="assets/images/logo.png" alt="Logo">
+                            </a>
+                            <p class="text">Introducing a vibrant social networking platform from India.</p>
+                            <ul class="social">
+                                <li><a href="#"><i class="lni lni-facebook"></i></a></li>
+                                <li><a href="#"><i class="lni lni-twitter"></i></a></li>
+                                <li><a href="#"><i class="lni lni-instagram"></i></a></li>
+                                <li><a href="#"><i class="lni lni-linkedin"></i></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div> 
+                    <div class="col-lg-5 col-md-6">
+                        <div class="footer-link d-flex flex-wrap">
+                            <div class="footer-link-wrapper mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                <div class="footer-title">
+                                    <h4 class="title">Quick Links</h4>
+                                </div>
+                                <ul class="link">
+                                    <li><a class="" href="#">Home</a></li>
+                                    <li><a class="" href="#">Features</a></li>
+                                    <li><a class="" href="#">Testimonial</a></li>
+                                    <li><a class="" href="#">Pricing</a></li>
+                                    <li><a class="" href="#">Contact</a></li>
+                                </ul>
+                            </div> <!-- footer link wrapper -->
+                            
+                            <div class="footer-link-wrapper mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                <div class="footer-title">
+                                    <h4 class="title">Support</h4>
+                                </div>
+                                <ul class="link">
+                                    <li><a class="" href="#">FAQ</a></li>
+                                    <li><a class="" href="#">Privacy Policy</a></li>
+                                    <li><a class="" href="#">Terms Of Use</a></li>
+                                    <li><a class="" href="#">Legal</a></li>
+                                    <li><a class="" href="#">Site Map</a></li>
+                                </ul>
+                            </div> <!-- footer link wrapper -->
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-contact mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <div class="footer-title">
+                                <h4 class="title">Quick Link</h4>
+                            </div>
+                            <ul class="contact-list">
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text"><i class="lni lni-phone"></i> +809272561823</p>
+                                        </div>
+                                    </div> <!-- contact info -->
+                                </li>
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text"><a href="#"><i class="lni lni-envelope"></i> info@appland.com</a></p>
+                                        </div>
+                                    </div> <!-- contact info -->
+                                </li>
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text"><a href="#"><i class="lni lni-world"></i> www.yourweb.com</a></p>
+                                        </div>
+                                    </div> <!-- contact info -->
+                                </li>
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text"><i class="lni lni-map"></i> 7C 6th Street, Thoothukudi, Tamil Nadu 628002.</p>
+                                        </div>
+                                    </div> <!-- contact info -->
+                                </li>
+                            </ul> <!-- contact list -->
+                        </div> <!-- footer contact -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+        
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright d-sm-flex justify-content-between">
+                            <div class="copyright-text text-center">
+                                <p class="text">Designed by <a rel="nofollow" href="https://kirubaitech.in">Kirubai Technosoft</a></p>
+                            </div> <!-- copyright text -->
+                            
+                            <div class="copyright-privacy text-center">
+                                <a href="#">Report Issues</a>
+                            </div> <!-- copyright privacy -->
+                        </div> <!-- copyright -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer copyright -->
+    </footer>
+    
+    <!--====== PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+    
+    <!--====== PART START ======-->
+    
+<!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-"></div> 
+            </div>
+        </div>
+    </section>
+-->
+    
+    <!--====== PART ENDS ======-->
+    
+
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
 </body>
 
 </html>
