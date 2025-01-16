@@ -75,12 +75,15 @@
         }
     </style>
 </head>
+<?php
 
+APP_VERSION = "5.1.2+1";
+?>
 <body>
     <div class="container">
         <h1>Content Policy</h1>
         <p><strong>Reflections Social Networking App</strong></p>
-        <p><i>Version 2.1.1</i></p>
+        <p><i>Version <?php echo $APP_VERSION; ?></i></p>
 
         <h2>1. User Guidelines</h2>
         <h3>Authenticity</h3>

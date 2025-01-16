@@ -119,11 +119,14 @@
                                         <a class="page-scroll" href="#home">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="content_policy.html">Content Policy</a>
+                                        <a class="page-scroll" href="content_policy.php">Content Policy</a>
                                     </li>                                    
                                     <li class="nav-item">
-                                        <a class="page-scroll" href="privacy_policy.html">Privacy Policy</a>
+                                        <a class="page-scroll" href="privacy_policy.php">Privacy Policy</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="permissions.php">App Permissions</a>
+                                    </li>                                    
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#download">Download</a>
                                     </li>
