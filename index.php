@@ -129,7 +129,7 @@
                                     </li>                                    
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#download">Download</a>
-                                    </li>
+                                    </li> 
                                 </ul>
                             </div> <!-- navbar collapse -->
                         </nav> <!-- navbar -->
